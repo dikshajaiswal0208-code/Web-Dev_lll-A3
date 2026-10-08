@@ -1,0 +1,19 @@
+{
+  "name": "inventory-management-system",
+  "version": "1.0.0",
+  "description": "Assignment 3 - Inventory and Data Management System (Node.js, Express, MongoDB, Mongoose)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed/seed.js",
+    "seed:destroy": "node seed/seed.js --destroy"
+  },
+  "keywords": ["express", "mongoose", "inventory", "rest-api"],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  }
+}
